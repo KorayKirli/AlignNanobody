@@ -1,9 +1,9 @@
 ### Extract Nanobody Sequences from multiple DNA sequencing results (fasta files) and align them
 
-If you have many plasmid dna sequencing results, ie from nanobody generation, or mutagenesis experiments, this tool can help you. I set this up to work with mybinder.org, but feel free to clone the repo and use it locally. 
+If you have many plasmid DNA sequencing results, ie from nanobody generation, or mutagenesis experiments, this tool can help you. I set this up to work with mybinder.org, but feel free to clone the repo and use it locally.
 
 #### What do you need to use this?
-You will need fasta files of your dna sequencing results, put them in a folder, name it as you wish, and then zip the folder. 
+You will need fasta files of your DNA sequencing results, put them in a folder, name it as you wish, and then zip the folder.
 
 #### What does the tool do?
 1. Extracting protein sequences
@@ -19,8 +19,4 @@ I am happy to make changes, add more functions, please use Github Issues for req
 #### About mybinder
 
 Binder is a service to take a Github repo with Jupyter Notebooks and host it (and its requirements) on a server.
-
-Start this repo on binder, then upload your folder with fasta files under data.
-In the notebook update the folder name, and run cells.
-
 You can also share the binder version of your repo as a link. The website is https://mybinder.org/.
