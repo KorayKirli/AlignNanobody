@@ -8,11 +8,18 @@ from Bio import SeqIO
 from Bio.Align.Applications import MuscleCommandline
 import numpy as np
 import panel as pn
+import zipfile
 pn.extension()
 
 
 def get_files(folder_name, ext):
-    full_folder = '../data/' + folder_name
+    if '.zip' in folder_name:
+        folder_name = folder_name.replace('.zip', "")
+    targetfolder = '../data/' + folder_name
+    zip_file = '../data/' + folder_name + '.zip'
+    with zipfile.ZipFile(zip_file, "r") as zip_ref:
+        zip_ref.extractall(targetfolder)
+    full_folder = targetfolder + '/' + folder_name
     file_list = glob.glob(full_folder + '/*.' + ext)
     num_files = len(file_list)
     if num_files:
