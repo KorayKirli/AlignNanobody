@@ -19,4 +19,4 @@ I am happy to make changes, add more functions, please use Github Issues for req
 #### About mybinder
 
 Binder is a service to take a Github repo with Jupyter Notebooks and host it (and its requirements) on a server.
-You can also share the binder version of your repo as a link. The website is https://mybinder.org/.
+You can also share the binder version of your repo as a link. Here is the binder website https://mybinder.org/.
