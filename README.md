@@ -1,6 +1,6 @@
 ### Extract Nanobody Sequences from multiple DNA sequencing results (fasta files) and align them
 
-If you have many plasmid DNA sequencing results, ie from nanobody generation, or mutagenesis experiments, this tool can help you. I set this up to work with mybinder.org, but feel free to clone the repo and use it locally.
+If you have many plasmid DNA sequencing results, ie from nanobody generation, or mutagenesis experiments, this tool can be helpful. I set this up to work with mybinder.org, but feel free to clone the repo and use it locally.
 
 #### What do you need to use this?
 You will need Fasta files of your DNA sequencing results, put them in a folder, name it as you wish, and then zip the folder.
